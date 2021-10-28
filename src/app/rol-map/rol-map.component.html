@@ -1,0 +1,20 @@
+<form class="mt-4" (ngSubmit)="saveConfiguration()">
+
+  <div class="d-flex flex-row" *ngFor="let idWord of idConfiguration; let i=index">
+    <div *ngFor="let idCharacter of idWords[i]; let j=index">
+      <select name="square" id="square" class="square" [(ngModel)]="idWords[i][j]"
+      [ngClass]="changeSquare(idWords[i][j], 'empty', 'totodile', 'treecko', 'chimchar', 'enemy-text')">
+        <option value="0" class="empty"></option>
+        <option value="1" class="totodile">Lacoste</option>
+        <option value="2" class="treecko">Treecko</option>
+        <option value="3" class="chimchar">Chimchar</option>
+        <option value="4" class="enemy-text">Enemigo 1</option>
+        <option value="5" class="enemy-text">Enemigo 2</option>
+        <option value="6" class="enemy-text">Enemigo 3</option>
+        <option value="7" class="enemy-text">Enemigo 4</option>
+        <option value="8" class="enemy-text">Enemigo 5</option>
+      </select>
+    </div>
+  </div>
+
+</form>

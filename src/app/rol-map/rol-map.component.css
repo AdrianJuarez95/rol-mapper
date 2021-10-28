@@ -1,0 +1,62 @@
+.square {
+  height: 5em;
+  width: 5em;
+}
+
+.empty {
+  color: rgb(136, 255, 148);
+  background-color: rgb(136, 255, 148);
+}
+
+.totodile {
+  background-image: url(../../assets/Totodile.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  font-size: 70%;
+  height: 7.15em;
+  width: 7.15em;
+}
+
+.treecko {
+  background-image: url(../../assets/Treecko.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  font-size: 70%;
+  height: 7.15em;
+  width: 7.15em;
+}
+
+.chimchar {
+  background-image: url(../../assets/Chimchar.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  font-size: 70%;
+  height: 7.15em;
+  width: 7.15em;
+}
+
+.hole {
+  color: black;
+  background-color: black;
+}
+
+.enemy {
+  color: red;
+  background-color: red;
+}
+
+.enemy-text {
+  color: red;
+  font-size: 70%;
+  height: 7.15em;
+  width: 7.15em;
+}

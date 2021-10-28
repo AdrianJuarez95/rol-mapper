@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand m-r4">Rol Mapper</a>
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['configuration']" [routerLinkActive]="['active']">Configuration</a>
+    </li>
+  </ul>
+
+  <ul class="navbar-nav navbar-right">
+    <li class="nav-item">
+      <a class="nav-link" (click)="save()">Save</a>
+    </li>
+  </ul>
+</nav>
